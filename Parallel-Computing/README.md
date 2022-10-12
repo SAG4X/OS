@@ -13,3 +13,14 @@ In the given example, it defined the num of thread as 4, but you can as per your
  ```slave()``` function is the work carried out in parallel
 
 ```pthread_create()```, ```pthread_join()``` functions inistize the threads and pass out the work and aggregate the results. 
+
+#### How to Compile 
+
+```
+gfg@ubuntu:~/$ gcc pthread-creation.c -lpthread
+gfg@ubuntu:~/$ ./a.out
+Before Creation of Thread
+Printing GeeksQuiz from Thread 
+After Creation of Thread
+gfg@ubuntu:~/$ 
+```
