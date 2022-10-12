@@ -3,7 +3,9 @@
 #include <stdlib.h>
 #include <unistd.h>  //Header file for sleep(). man 3 sleep for details.
 #include <pthread.h>
- 
+
+
+// ------ This will only create one thread ------ //
 // A normal C function that is executed as a thread
 // when its name is specified in pthread_create()
 void *slave(void *vargp)
