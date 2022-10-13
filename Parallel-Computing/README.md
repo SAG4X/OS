@@ -23,3 +23,13 @@ OMP defined its own directives to run parallel programs
 There are main three work construct to carry parallel working inside the code. They are ``For`` , ``Section`` and ``Single``. 
 For construct to run different iteration with different threads which used in the given example.
 
+#### How to Compile 
+
+```
+gfg@ubuntu:~/$ gcc pthread-creation.c -lpthread
+gfg@ubuntu:~/$ ./a.out
+Before Creation of Thread
+Printing GeeksQuiz from Thread 
+After Creation of Thread
+gfg@ubuntu:~/$ 
+```
