@@ -16,6 +16,8 @@ In the given example, it defined the num of thread as 4, but you can as per your
 
 #### How to Compile & Run a pthread C code
 
+#### How to Compile 
+
 ```
 gfg@ubuntu:~/$ gcc pthread-creation.c -lpthread
 gfg@ubuntu:~/$ ./a.out
@@ -42,7 +44,6 @@ gfg@ubuntu:~/$ ./go
 ```
 
 ### Step 4 : Measure the Speedup & Efficiency Metrics
-
 
 
 ### MPI
